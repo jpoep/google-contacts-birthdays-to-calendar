@@ -2,8 +2,8 @@ use anyhow::Context;
 use chrono::NaiveDate;
 use ics::{
     Alarm, Event, ICalendar,
-    parameters::{self, Related},
-    properties::{DtStart, RRule, RelatedTo, Summary, Trigger},
+    parameters::Related,
+    properties::{DtStart, RRule, Summary, Trigger},
 };
 use std::{collections::HashMap, error::Error, io, str::FromStr};
 use uuid::Uuid;
