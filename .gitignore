@@ -139,3 +139,6 @@ dist
 # Added by cargo
 
 /target
+
+contacts.csv
+birthdays.ics
